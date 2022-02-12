@@ -1,0 +1,47 @@
+[
+    {
+        "locationName": "Chemnitz",
+        "sensorDetails": [
+            {
+                "id": 0,
+                "lat": "",
+                "long": "",
+                "CO2": "",
+                "timestamp": ""
+            },
+            {
+                "id": 1,
+                "lat": "",
+                "long": "",
+                "CO2": "",
+                "timestamp": ""
+            }
+        ]
+    },
+    {
+        "locationName": "Berlin",
+        "sensorDetails": [
+            {
+                "id": 0,
+                "lat": "",
+                "long": "",
+                "CO2": "",
+                "timestamp": ""
+            },
+            {
+                "id": 1,
+                "lat": "",
+                "long": "",
+                "CO2": "",
+                "timestamp": ""
+            },
+            {
+                "id": 2,
+                "lat": "",
+                "long": "",
+                "CO2": "",
+                "timestamp": ""
+            }
+        ]
+    }
+]
