@@ -1,47 +1,1392 @@
 [
     {
-        "locationName": "Chemnitz",
-        "sensorDetails": [
-            {
-                "id": 0,
-                "lat": "",
-                "long": "",
-                "CO2": "",
-                "timestamp": ""
-            },
-            {
-                "id": 1,
-                "lat": "",
-                "long": "",
-                "CO2": "",
-                "timestamp": ""
-            }
-        ]
+        "city": "Berlin",
+        "country": "Germany",
+        "iso2": "DE",
+        "lat": "52.5167",
+        "lng": "13.3833",
+        "co2": 1000,
+        "timestamp": 1644509736,
+        "id": 0
     },
     {
-        "locationName": "Berlin",
-        "sensorDetails": [
-            {
-                "id": 0,
-                "lat": "",
-                "long": "",
-                "CO2": "",
-                "timestamp": ""
-            },
-            {
-                "id": 1,
-                "lat": "",
-                "long": "",
-                "CO2": "",
-                "timestamp": ""
-            },
-            {
-                "id": 2,
-                "lat": "",
-                "long": "",
-                "CO2": "",
-                "timestamp": ""
-            }
-        ]
+        "city": "Hamburg",
+        "country": "Germany",
+        "iso2": "DE",
+        "lat": "53.5500",
+        "lng": "10.0000",
+        "co2": 1000,
+        "timestamp": 1644509736,
+        "id": 1
+    },
+    {
+        "city": "Munich",
+        "country": "Germany",
+        "iso2": "DE",
+        "lat": "48.1372",
+        "lng": "11.5755",
+        "co2": 1000,
+        "timestamp": 1644509736,
+        "id": 2
+    },
+    {
+        "city": "Cologne",
+        "country": "Germany",
+        "iso2": "DE",
+        "lat": "50.9422",
+        "lng": "6.9578",
+        "co2": 1000,
+        "timestamp": 1644509736,
+        "id": 3
+    },
+    {
+        "city": "Frankfurt",
+        "country": "Germany",
+        "iso2": "DE",
+        "lat": "50.1136",
+        "lng": "8.6797",
+        "co2": 1000,
+        "timestamp": 1644509736,
+        "id": 4
+    },
+    {
+        "city": "Bremen",
+        "country": "Germany",
+        "iso2": "DE",
+        "lat": "53.1153",
+        "lng": "8.7975",
+        "co2": 1000,
+        "timestamp": 1644509736,
+        "id": 5
+    },
+    {
+        "city": "Düsseldorf",
+        "country": "Germany",
+        "iso2": "DE",
+        "lat": "51.2311",
+        "lng": "6.7724",
+        "co2": 1000,
+        "timestamp": 1644509736,
+        "id": 6
+    },
+    {
+        "city": "Stuttgart",
+        "country": "Germany",
+        "iso2": "DE",
+        "lat": "48.7761",
+        "lng": "9.1775",
+        "co2": 1000,
+        "timestamp": 1644509736,
+        "id": 7
+    },
+    {
+        "city": "Leipzig",
+        "country": "Germany",
+        "iso2": "DE",
+        "lat": "51.3333",
+        "lng": "12.3833",
+        "co2": 1000,
+        "timestamp": 1644509736,
+        "id": 8
+    },
+    {
+        "city": "Dortmund",
+        "country": "Germany",
+        "iso2": "DE",
+        "lat": "51.5139",
+        "lng": "7.4653",
+        "co2": 1000,
+        "timestamp": 1644509736,
+        "id": 9
+    },
+    {
+        "city": "Essen",
+        "country": "Germany",
+        "iso2": "DE",
+        "lat": "51.4508",
+        "lng": "7.0131",
+        "co2": 1000,
+        "timestamp": 1644509736,
+        "id": 10
+    },
+    {
+        "city": "Dresden",
+        "country": "Germany",
+        "iso2": "DE",
+        "lat": "51.0500",
+        "lng": "13.7400",
+        "co2": 1000,
+        "timestamp": 1644509736,
+        "id": 11
+    },
+    {
+        "city": "Hannover",
+        "country": "Germany",
+        "iso2": "DE",
+        "lat": "52.3744",
+        "lng": "9.7386",
+        "co2": 1000,
+        "timestamp": 1644509736,
+        "id": 12
+    },
+    {
+        "city": "Nuremberg",
+        "country": "Germany",
+        "iso2": "DE",
+        "lat": "49.4539",
+        "lng": "11.0775",
+        "co2": 1000,
+        "timestamp": 1644509736,
+        "id": 13
+    },
+    {
+        "city": "Duisburg",
+        "country": "Germany",
+        "iso2": "DE",
+        "lat": "51.4322",
+        "lng": "6.7611",
+        "co2": 1000,
+        "timestamp": 1644509736,
+        "id": 14
+    },
+    {
+        "city": "Bochum",
+        "country": "Germany",
+        "iso2": "DE",
+        "lat": "51.4833",
+        "lng": "7.2167",
+        "co2": 1000,
+        "timestamp": 1644509736,
+        "id": 15
+    },
+    {
+        "city": "Wuppertal",
+        "country": "Germany",
+        "iso2": "DE",
+        "lat": "51.2667",
+        "lng": "7.1833",
+        "co2": 1000,
+        "timestamp": 1644509736,
+        "id": 16
+    },
+    {
+        "city": "Bielefeld",
+        "country": "Germany",
+        "iso2": "DE",
+        "lat": "52.0167",
+        "lng": "8.5333",
+        "co2": 1000,
+        "timestamp": 1644509736,
+        "id": 17
+    },
+    {
+        "city": "Bonn",
+        "country": "Germany",
+        "iso2": "DE",
+        "lat": "50.7339",
+        "lng": "7.0997",
+        "co2": 1000,
+        "timestamp": 1644509736,
+        "id": 18
+    },
+    {
+        "city": "Münster",
+        "country": "Germany",
+        "iso2": "DE",
+        "lat": "51.9625",
+        "lng": "7.6256",
+        "co2": 1000,
+        "timestamp": 1644509736,
+        "id": 19
+    },
+    {
+        "city": "Karlsruhe",
+        "country": "Germany",
+        "iso2": "DE",
+        "lat": "49.0167",
+        "lng": "8.4000",
+        "co2": 1000,
+        "timestamp": 1644509736,
+        "id": 20
+    },
+    {
+        "city": "Mannheim",
+        "country": "Germany",
+        "iso2": "DE",
+        "lat": "49.4878",
+        "lng": "8.4661",
+        "co2": 1000,
+        "timestamp": 1644509736,
+        "id": 21
+    },
+    {
+        "city": "Augsburg",
+        "country": "Germany",
+        "iso2": "DE",
+        "lat": "48.3717",
+        "lng": "10.8983",
+        "co2": 1000,
+        "timestamp": 1644509736,
+        "id": 22
+    },
+    {
+        "city": "Kassel",
+        "country": "Germany",
+        "iso2": "DE",
+        "lat": "51.3166",
+        "lng": "9.4912",
+        "co2": 1000,
+        "timestamp": 1644509736,
+        "id": 23
+    },
+    {
+        "city": "Wiesbaden",
+        "country": "Germany",
+        "iso2": "DE",
+        "lat": "50.0825",
+        "lng": "8.2400",
+        "co2": 1000,
+        "timestamp": 1644509736,
+        "id": 24
+    },
+    {
+        "city": "Mönchengladbach",
+        "country": "Germany",
+        "iso2": "DE",
+        "lat": "51.2000",
+        "lng": "6.4333",
+        "co2": 1000,
+        "timestamp": 1644509736,
+        "id": 25
+    },
+    {
+        "city": "Gelsenkirchen",
+        "country": "Germany",
+        "iso2": "DE",
+        "lat": "51.5167",
+        "lng": "7.1000",
+        "co2": 1000,
+        "timestamp": 1644509736,
+        "id": 26
+    },
+    {
+        "city": "Braunschweig",
+        "country": "Germany",
+        "iso2": "DE",
+        "lat": "52.2692",
+        "lng": "10.5211",
+        "co2": 1000,
+        "timestamp": 1644509736,
+        "id": 27
+    },
+    {
+        "city": "Aachen",
+        "country": "Germany",
+        "iso2": "DE",
+        "lat": "50.7762",
+        "lng": "6.0838",
+        "co2": 1000,
+        "timestamp": 1644509736,
+        "id": 28
+    },
+    {
+        "city": "Kiel",
+        "country": "Germany",
+        "iso2": "DE",
+        "lat": "54.3233",
+        "lng": "10.1394",
+        "co2": 1000,
+        "timestamp": 1644509736,
+        "id": 29
+    },
+    {
+        "city": "Chemnitz",
+        "country": "Germany",
+        "iso2": "DE",
+        "lat": "50.8333",
+        "lng": "12.9167",
+        "co2": 1000,
+        "timestamp": 1644509736,
+        "id": 30
+    },
+    {
+        "city": "Halle",
+        "country": "Germany",
+        "iso2": "DE",
+        "lat": "51.4828",
+        "lng": "11.9697",
+        "co2": 1000,
+        "timestamp": 1644509736,
+        "id": 31
+    },
+    {
+        "city": "Magdeburg",
+        "country": "Germany",
+        "iso2": "DE",
+        "lat": "52.1278",
+        "lng": "11.6292",
+        "co2": 1000,
+        "timestamp": 1644509736,
+        "id": 32
+    },
+    {
+        "city": "Freiburg im Breisgau",
+        "country": "Germany",
+        "iso2": "DE",
+        "lat": "47.9947",
+        "lng": "7.8497",
+        "co2": 1000,
+        "timestamp": 1644509736,
+        "id": 33
+    },
+    {
+        "city": "Krefeld",
+        "country": "Germany",
+        "iso2": "DE",
+        "lat": "51.3333",
+        "lng": "6.5667",
+        "co2": 1000,
+        "timestamp": 1644509736,
+        "id": 34
+    },
+    {
+        "city": "Mainz",
+        "country": "Germany",
+        "iso2": "DE",
+        "lat": "50.0000",
+        "lng": "8.2667",
+        "co2": 1000,
+        "timestamp": 1644509736,
+        "id": 35
+    },
+    {
+        "city": "Lübeck",
+        "country": "Germany",
+        "iso2": "DE",
+        "lat": "53.8697",
+        "lng": "10.6864",
+        "co2": 1000,
+        "timestamp": 1644509736,
+        "id": 36
+    },
+    {
+        "city": "Oberhausen",
+        "country": "Germany",
+        "iso2": "DE",
+        "lat": "51.4699",
+        "lng": "6.8514",
+        "co2": 1000,
+        "timestamp": 1644509736,
+        "id": 37
+    },
+    {
+        "city": "Rostock",
+        "country": "Germany",
+        "iso2": "DE",
+        "lat": "54.0833",
+        "lng": "12.1333",
+        "co2": 1000,
+        "timestamp": 1644509736,
+        "id": 38
+    },
+    {
+        "city": "Erfurt",
+        "country": "Germany",
+        "iso2": "DE",
+        "lat": "50.9787",
+        "lng": "11.0328",
+        "co2": 1000,
+        "timestamp": 1644509736,
+        "id": 39
+    },
+    {
+        "city": "Hagen",
+        "country": "Germany",
+        "iso2": "DE",
+        "lat": "51.3594",
+        "lng": "7.4750",
+        "co2": 1000,
+        "timestamp": 1644509736,
+        "id": 40
+    },
+    {
+        "city": "Potsdam",
+        "country": "Germany",
+        "iso2": "DE",
+        "lat": "52.4000",
+        "lng": "13.0667",
+        "co2": 1000,
+        "timestamp": 1644509736,
+        "id": 41
+    },
+    {
+        "city": "Saarbrücken",
+        "country": "Germany",
+        "iso2": "DE",
+        "lat": "49.2333",
+        "lng": "7.0000",
+        "co2": 1000,
+        "timestamp": 1644509736,
+        "id": 42
+    },
+    {
+        "city": "Hamm",
+        "country": "Germany",
+        "iso2": "DE",
+        "lat": "51.6667",
+        "lng": "7.8167",
+        "co2": 1000,
+        "timestamp": 1644509736,
+        "id": 43
+    },
+    {
+        "city": "Ludwigshafen",
+        "country": "Germany",
+        "iso2": "DE",
+        "lat": "49.4811",
+        "lng": "8.4353",
+        "co2": 1000,
+        "timestamp": 1644509736,
+        "id": 44
+    },
+    {
+        "city": "Mülheim",
+        "country": "Germany",
+        "iso2": "DE",
+        "lat": "51.4275",
+        "lng": "6.8825",
+        "co2": 1000,
+        "timestamp": 1644509736,
+        "id": 45
+    },
+    {
+        "city": "Oldenburg",
+        "country": "Germany",
+        "iso2": "DE",
+        "lat": "53.1439",
+        "lng": "8.2139",
+        "co2": 1000,
+        "timestamp": 1644509736,
+        "id": 46
+    },
+    {
+        "city": "Osnabrück",
+        "country": "Germany",
+        "iso2": "DE",
+        "lat": "52.2789",
+        "lng": "8.0431",
+        "co2": 1000,
+        "timestamp": 1644509736,
+        "id": 47
+    },
+    {
+        "city": "Leverkusen",
+        "country": "Germany",
+        "iso2": "DE",
+        "lat": "51.0333",
+        "lng": "6.9833",
+        "co2": 1000,
+        "timestamp": 1644509736,
+        "id": 48
+    },
+    {
+        "city": "Heidelberg",
+        "country": "Germany",
+        "iso2": "DE",
+        "lat": "49.4122",
+        "lng": "8.7100",
+        "co2": 1000,
+        "timestamp": 1644509736,
+        "id": 49
+    },
+    {
+        "city": "Solingen",
+        "country": "Germany",
+        "iso2": "DE",
+        "lat": "51.1667",
+        "lng": "7.0833",
+        "co2": 1000,
+        "timestamp": 1644509736,
+        "id": 50
+    },
+    {
+        "city": "Darmstadt",
+        "country": "Germany",
+        "iso2": "DE",
+        "lat": "49.8667",
+        "lng": "8.6500",
+        "co2": 1000,
+        "timestamp": 1644509736,
+        "id": 51
+    },
+    {
+        "city": "Herne",
+        "country": "Germany",
+        "iso2": "DE",
+        "lat": "51.5426",
+        "lng": "7.2190",
+        "co2": 1000,
+        "timestamp": 1644509736,
+        "id": 52
+    },
+    {
+        "city": "Neuss",
+        "country": "Germany",
+        "iso2": "DE",
+        "lat": "51.2003",
+        "lng": "6.6939",
+        "co2": 1000,
+        "timestamp": 1644509736,
+        "id": 53
+    },
+    {
+        "city": "Regensburg",
+        "country": "Germany",
+        "iso2": "DE",
+        "lat": "49.0167",
+        "lng": "12.0833",
+        "co2": 1000,
+        "timestamp": 1644509736,
+        "id": 54
+    },
+    {
+        "city": "Paderborn",
+        "country": "Germany",
+        "iso2": "DE",
+        "lat": "51.7167",
+        "lng": "8.7667",
+        "co2": 1000,
+        "timestamp": 1644509736,
+        "id": 55
+    },
+    {
+        "city": "Ingolstadt",
+        "country": "Germany",
+        "iso2": "DE",
+        "lat": "48.7636",
+        "lng": "11.4261",
+        "co2": 1000,
+        "timestamp": 1644509736,
+        "id": 56
+    },
+    {
+        "city": "Würzburg",
+        "country": "Germany",
+        "iso2": "DE",
+        "lat": "49.7944",
+        "lng": "9.9294",
+        "co2": 1000,
+        "timestamp": 1644509736,
+        "id": 57
+    },
+    {
+        "city": "Fürth",
+        "country": "Germany",
+        "iso2": "DE",
+        "lat": "49.4783",
+        "lng": "10.9903",
+        "co2": 1000,
+        "timestamp": 1644509736,
+        "id": 58
+    },
+    {
+        "city": "Ulm",
+        "country": "Germany",
+        "iso2": "DE",
+        "lat": "48.3984",
+        "lng": "9.9916",
+        "co2": 1000,
+        "timestamp": 1644509736,
+        "id": 59
+    },
+    {
+        "city": "Heilbronn",
+        "country": "Germany",
+        "iso2": "DE",
+        "lat": "49.1404",
+        "lng": "9.2180",
+        "co2": 1000,
+        "timestamp": 1644509736,
+        "id": 60
+    },
+    {
+        "city": "Pforzheim",
+        "country": "Germany",
+        "iso2": "DE",
+        "lat": "48.8950",
+        "lng": "8.7050",
+        "co2": 1000,
+        "timestamp": 1644509736,
+        "id": 61
+    },
+    {
+        "city": "Wolfsburg",
+        "country": "Germany",
+        "iso2": "DE",
+        "lat": "52.4231",
+        "lng": "10.7872",
+        "co2": 1000,
+        "timestamp": 1644509736,
+        "id": 62
+    },
+    {
+        "city": "Göttingen",
+        "country": "Germany",
+        "iso2": "DE",
+        "lat": "51.5339",
+        "lng": "9.9356",
+        "co2": 1000,
+        "timestamp": 1644509736,
+        "id": 63
+    },
+    {
+        "city": "Bottrop",
+        "country": "Germany",
+        "iso2": "DE",
+        "lat": "51.5232",
+        "lng": "6.9253",
+        "co2": 1000,
+        "timestamp": 1644509736,
+        "id": 64
+    },
+    {
+        "city": "Reutlingen",
+        "country": "Germany",
+        "iso2": "DE",
+        "lat": "48.4833",
+        "lng": "9.2167",
+        "co2": 1000,
+        "timestamp": 1644509736,
+        "id": 65
+    },
+    {
+        "city": "Koblenz",
+        "country": "Germany",
+        "iso2": "DE",
+        "lat": "50.3597",
+        "lng": "7.5978",
+        "co2": 1000,
+        "timestamp": 1644509736,
+        "id": 66
+    },
+    {
+        "city": "Bremerhaven",
+        "country": "Germany",
+        "iso2": "DE",
+        "lat": "53.5500",
+        "lng": "8.5833",
+        "co2": 1000,
+        "timestamp": 1644509736,
+        "id": 67
+    },
+    {
+        "city": "Recklinghausen",
+        "country": "Germany",
+        "iso2": "DE",
+        "lat": "51.6167",
+        "lng": "7.2000",
+        "co2": 1000,
+        "timestamp": 1644509736,
+        "id": 68
+    },
+    {
+        "city": "Bergisch Gladbach",
+        "country": "Germany",
+        "iso2": "DE",
+        "lat": "50.9917",
+        "lng": "7.1367",
+        "co2": 1000,
+        "timestamp": 1644509736,
+        "id": 69
+    },
+    {
+        "city": "Erlangen",
+        "country": "Germany",
+        "iso2": "DE",
+        "lat": "49.5964",
+        "lng": "11.0044",
+        "co2": 1000,
+        "timestamp": 1644509736,
+        "id": 70
+    },
+    {
+        "city": "Jena",
+        "country": "Germany",
+        "iso2": "DE",
+        "lat": "50.9272",
+        "lng": "11.5864",
+        "co2": 1000,
+        "timestamp": 1644509736,
+        "id": 71
+    },
+    {
+        "city": "Remscheid",
+        "country": "Germany",
+        "iso2": "DE",
+        "lat": "51.1802",
+        "lng": "7.1872",
+        "co2": 1000,
+        "timestamp": 1644509736,
+        "id": 72
+    },
+    {
+        "city": "Trier",
+        "country": "Germany",
+        "iso2": "DE",
+        "lat": "49.7567",
+        "lng": "6.6414",
+        "co2": 1000,
+        "timestamp": 1644509736,
+        "id": 73
+    },
+    {
+        "city": "Salzgitter",
+        "country": "Germany",
+        "iso2": "DE",
+        "lat": "52.1503",
+        "lng": "10.3593",
+        "co2": 1000,
+        "timestamp": 1644509736,
+        "id": 74
+    },
+    {
+        "city": "Moers",
+        "country": "Germany",
+        "iso2": "DE",
+        "lat": "51.4592",
+        "lng": "6.6197",
+        "co2": 1000,
+        "timestamp": 1644509736,
+        "id": 75
+    },
+    {
+        "city": "Siegen",
+        "country": "Germany",
+        "iso2": "DE",
+        "lat": "50.8756",
+        "lng": "8.0167",
+        "co2": 1000,
+        "timestamp": 1644509736,
+        "id": 76
+    },
+    {
+        "city": "Hildesheim",
+        "country": "Germany",
+        "iso2": "DE",
+        "lat": "52.1500",
+        "lng": "9.9500",
+        "co2": 1000,
+        "timestamp": 1644509736,
+        "id": 77
+    },
+    {
+        "city": "Cottbus",
+        "country": "Germany",
+        "iso2": "DE",
+        "lat": "51.7606",
+        "lng": "14.3342",
+        "co2": 1000,
+        "timestamp": 1644509736,
+        "id": 78
+    },
+    {
+        "city": "Gütersloh",
+        "country": "Germany",
+        "iso2": "DE",
+        "lat": "51.9000",
+        "lng": "8.3833",
+        "co2": 1000,
+        "timestamp": 1644509736,
+        "id": 79
+    },
+    {
+        "city": "Kaiserslautern",
+        "country": "Germany",
+        "iso2": "DE",
+        "lat": "49.4447",
+        "lng": "7.7689",
+        "co2": 1000,
+        "timestamp": 1644509736,
+        "id": 80
+    },
+    {
+        "city": "Witten",
+        "country": "Germany",
+        "iso2": "DE",
+        "lat": "51.4333",
+        "lng": "7.3333",
+        "co2": 1000,
+        "timestamp": 1644509736,
+        "id": 81
+    },
+    {
+        "city": "Hanau",
+        "country": "Germany",
+        "iso2": "DE",
+        "lat": "50.1328",
+        "lng": "8.9169",
+        "co2": 1000,
+        "timestamp": 1644509736,
+        "id": 82
+    },
+    {
+        "city": "Schwerin",
+        "country": "Germany",
+        "iso2": "DE",
+        "lat": "53.6333",
+        "lng": "11.4167",
+        "co2": 1000,
+        "timestamp": 1644509736,
+        "id": 83
+    },
+    {
+        "city": "Gera",
+        "country": "Germany",
+        "iso2": "DE",
+        "lat": "50.8782",
+        "lng": "12.0824",
+        "co2": 1000,
+        "timestamp": 1644509736,
+        "id": 84
+    },
+    {
+        "city": "Esslingen",
+        "country": "Germany",
+        "iso2": "DE",
+        "lat": "48.7406",
+        "lng": "9.3108",
+        "co2": 1000,
+        "timestamp": 1644509736,
+        "id": 85
+    },
+    {
+        "city": "Ludwigsburg",
+        "country": "Germany",
+        "iso2": "DE",
+        "lat": "48.8975",
+        "lng": "9.1919",
+        "co2": 1000,
+        "timestamp": 1644509736,
+        "id": 86
+    },
+    {
+        "city": "Iserlohn",
+        "country": "Germany",
+        "iso2": "DE",
+        "lat": "51.3833",
+        "lng": "7.6667",
+        "co2": 1000,
+        "timestamp": 1644509736,
+        "id": 87
+    },
+    {
+        "city": "Düren",
+        "country": "Germany",
+        "iso2": "DE",
+        "lat": "50.8000",
+        "lng": "6.4833",
+        "co2": 1000,
+        "timestamp": 1644509736,
+        "id": 88
+    },
+    {
+        "city": "Tübingen",
+        "country": "Germany",
+        "iso2": "DE",
+        "lat": "48.5200",
+        "lng": "9.0556",
+        "co2": 1000,
+        "timestamp": 1644509736,
+        "id": 89
+    },
+    {
+        "city": "Flensburg",
+        "country": "Germany",
+        "iso2": "DE",
+        "lat": "54.7819",
+        "lng": "9.4367",
+        "co2": 1000,
+        "timestamp": 1644509736,
+        "id": 90
+    },
+    {
+        "city": "Zwickau",
+        "country": "Germany",
+        "iso2": "DE",
+        "lat": "50.7189",
+        "lng": "12.4961",
+        "co2": 1000,
+        "timestamp": 1644509736,
+        "id": 91
+    },
+    {
+        "city": "Gießen",
+        "country": "Germany",
+        "iso2": "DE",
+        "lat": "50.5833",
+        "lng": "8.6667",
+        "co2": 1000,
+        "timestamp": 1644509736,
+        "id": 92
+    },
+    {
+        "city": "Ratingen",
+        "country": "Germany",
+        "iso2": "DE",
+        "lat": "51.3000",
+        "lng": "6.8500",
+        "co2": 1000,
+        "timestamp": 1644509736,
+        "id": 93
+    },
+    {
+        "city": "Lünen",
+        "country": "Germany",
+        "iso2": "DE",
+        "lat": "51.6167",
+        "lng": "7.5167",
+        "co2": 1000,
+        "timestamp": 1644509736,
+        "id": 94
+    },
+    {
+        "city": "Villingen-Schwenningen",
+        "country": "Germany",
+        "iso2": "DE",
+        "lat": "48.0603",
+        "lng": "8.4586",
+        "co2": 1000,
+        "timestamp": 1644509736,
+        "id": 95
+    },
+    {
+        "city": "Konstanz",
+        "country": "Germany",
+        "iso2": "DE",
+        "lat": "47.6633",
+        "lng": "9.1753",
+        "co2": 1000,
+        "timestamp": 1644509736,
+        "id": 96
+    },
+    {
+        "city": "Marl",
+        "country": "Germany",
+        "iso2": "DE",
+        "lat": "51.6667",
+        "lng": "7.1167",
+        "co2": 1000,
+        "timestamp": 1644509736,
+        "id": 97
+    },
+    {
+        "city": "Worms",
+        "country": "Germany",
+        "iso2": "DE",
+        "lat": "49.6319",
+        "lng": "8.3653",
+        "co2": 1000,
+        "timestamp": 1644509736,
+        "id": 98
+    },
+    {
+        "city": "Velbert",
+        "country": "Germany",
+        "iso2": "DE",
+        "lat": "51.3400",
+        "lng": "7.0416",
+        "co2": 1000,
+        "timestamp": 1644509736,
+        "id": 99
+    },
+    {
+        "city": "Minden",
+        "country": "Germany",
+        "iso2": "DE",
+        "lat": "52.2883",
+        "lng": "8.9167",
+        "co2": 1000,
+        "timestamp": 1644509736,
+        "id": 100
+    },
+    {
+        "city": "Dessau-Roßlau",
+        "country": "Germany",
+        "iso2": "DE",
+        "lat": "51.8333",
+        "lng": "12.2333",
+        "co2": 1000,
+        "timestamp": 1644509736,
+        "id": 101
+    },
+    {
+        "city": "Neumünster",
+        "country": "Germany",
+        "iso2": "DE",
+        "lat": "54.0714",
+        "lng": "9.9900",
+        "co2": 1000,
+        "timestamp": 1644509736,
+        "id": 102
+    },
+    {
+        "city": "Norderstedt",
+        "country": "Germany",
+        "iso2": "DE",
+        "lat": "53.7064",
+        "lng": "10.0103",
+        "co2": 1000,
+        "timestamp": 1644509736,
+        "id": 103
+    },
+    {
+        "city": "Delmenhorst",
+        "country": "Germany",
+        "iso2": "DE",
+        "lat": "53.0506",
+        "lng": "8.6317",
+        "co2": 1000,
+        "timestamp": 1644509736,
+        "id": 104
+    },
+    {
+        "city": "Bamberg",
+        "country": "Germany",
+        "iso2": "DE",
+        "lat": "49.8917",
+        "lng": "10.8917",
+        "co2": 1000,
+        "timestamp": 1644509736,
+        "id": 105
+    },
+    {
+        "city": "Viersen",
+        "country": "Germany",
+        "iso2": "DE",
+        "lat": "51.2556",
+        "lng": "6.3917",
+        "co2": 1000,
+        "timestamp": 1644509736,
+        "id": 106
+    },
+    {
+        "city": "Marburg",
+        "country": "Germany",
+        "iso2": "DE",
+        "lat": "50.8167",
+        "lng": "8.7667",
+        "co2": 1000,
+        "timestamp": 1644509736,
+        "id": 107
+    },
+    {
+        "city": "Rheine",
+        "country": "Germany",
+        "iso2": "DE",
+        "lat": "52.2833",
+        "lng": "7.4333",
+        "co2": 1000,
+        "timestamp": 1644509736,
+        "id": 108
+    },
+    {
+        "city": "Wilhelmshaven",
+        "country": "Germany",
+        "iso2": "DE",
+        "lat": "53.5167",
+        "lng": "8.1333",
+        "co2": 1000,
+        "timestamp": 1644509736,
+        "id": 109
+    },
+    {
+        "city": "Gladbeck",
+        "country": "Germany",
+        "iso2": "DE",
+        "lat": "51.5713",
+        "lng": "6.9827",
+        "co2": 1000,
+        "timestamp": 1644509736,
+        "id": 110
+    },
+    {
+        "city": "Lüneburg",
+        "country": "Germany",
+        "iso2": "DE",
+        "lat": "53.2525",
+        "lng": "10.4144",
+        "co2": 1000,
+        "timestamp": 1644509736,
+        "id": 111
+    },
+    {
+        "city": "Troisdorf",
+        "country": "Germany",
+        "iso2": "DE",
+        "lat": "50.8161",
+        "lng": "7.1556",
+        "co2": 1000,
+        "timestamp": 1644509736,
+        "id": 112
+    },
+    {
+        "city": "Dorsten",
+        "country": "Germany",
+        "iso2": "DE",
+        "lat": "51.6600",
+        "lng": "6.9642",
+        "co2": 1000,
+        "timestamp": 1644509736,
+        "id": 113
+    },
+    {
+        "city": "Bayreuth",
+        "country": "Germany",
+        "iso2": "DE",
+        "lat": "49.9481",
+        "lng": "11.5783",
+        "co2": 1000,
+        "timestamp": 1644509736,
+        "id": 114
+    },
+    {
+        "city": "Detmold",
+        "country": "Germany",
+        "iso2": "DE",
+        "lat": "51.9378",
+        "lng": "8.8833",
+        "co2": 1000,
+        "timestamp": 1644509736,
+        "id": 115
+    },
+    {
+        "city": "Arnsberg",
+        "country": "Germany",
+        "iso2": "DE",
+        "lat": "51.3967",
+        "lng": "8.0644",
+        "co2": 1000,
+        "timestamp": 1644509736,
+        "id": 116
+    },
+    {
+        "city": "Castrop-Rauxel",
+        "country": "Germany",
+        "iso2": "DE",
+        "lat": "51.5500",
+        "lng": "7.3167",
+        "co2": 1000,
+        "timestamp": 1644509736,
+        "id": 117
+    },
+    {
+        "city": "Lüdenscheid",
+        "country": "Germany",
+        "iso2": "DE",
+        "lat": "51.2198",
+        "lng": "7.6273",
+        "co2": 1000,
+        "timestamp": 1644509736,
+        "id": 118
+    },
+    {
+        "city": "Landshut",
+        "country": "Germany",
+        "iso2": "DE",
+        "lat": "48.5397",
+        "lng": "12.1508",
+        "co2": 1000,
+        "timestamp": 1644509736,
+        "id": 119
+    },
+    {
+        "city": "Brandenburg",
+        "country": "Germany",
+        "iso2": "DE",
+        "lat": "52.4117",
+        "lng": "12.5561",
+        "co2": 1000,
+        "timestamp": 1644509736,
+        "id": 120
+    },
+    {
+        "city": "Bocholt",
+        "country": "Germany",
+        "iso2": "DE",
+        "lat": "51.8333",
+        "lng": "6.6167",
+        "co2": 1000,
+        "timestamp": 1644509736,
+        "id": 121
+    },
+    {
+        "city": "Aschaffenburg",
+        "country": "Germany",
+        "iso2": "DE",
+        "lat": "49.9757",
+        "lng": "9.1478",
+        "co2": 1000,
+        "timestamp": 1644509736,
+        "id": 122
+    },
+    {
+        "city": "Celle",
+        "country": "Germany",
+        "iso2": "DE",
+        "lat": "52.6256",
+        "lng": "10.0825",
+        "co2": 1000,
+        "timestamp": 1644509736,
+        "id": 123
+    },
+    {
+        "city": "Kempten",
+        "country": "Germany",
+        "iso2": "DE",
+        "lat": "47.7333",
+        "lng": "10.3167",
+        "co2": 1000,
+        "timestamp": 1644509736,
+        "id": 124
+    },
+    {
+        "city": "Fulda",
+        "country": "Germany",
+        "iso2": "DE",
+        "lat": "50.5528",
+        "lng": "9.6775",
+        "co2": 1000,
+        "timestamp": 1644509736,
+        "id": 125
+    },
+    {
+        "city": "Aalen",
+        "country": "Germany",
+        "iso2": "DE",
+        "lat": "48.8372",
+        "lng": "10.0936",
+        "co2": 1000,
+        "timestamp": 1644509736,
+        "id": 126
+    },
+    {
+        "city": "Lippstadt",
+        "country": "Germany",
+        "iso2": "DE",
+        "lat": "51.6667",
+        "lng": "8.3500",
+        "co2": 1000,
+        "timestamp": 1644509736,
+        "id": 127
+    },
+    {
+        "city": "Dinslaken",
+        "country": "Germany",
+        "iso2": "DE",
+        "lat": "51.5667",
+        "lng": "6.7333",
+        "co2": 1000,
+        "timestamp": 1644509736,
+        "id": 128
+    },
+    {
+        "city": "Herford",
+        "country": "Germany",
+        "iso2": "DE",
+        "lat": "52.1146",
+        "lng": "8.6734",
+        "co2": 1000,
+        "timestamp": 1644509736,
+        "id": 129
+    },
+    {
+        "city": "Kerpen",
+        "country": "Germany",
+        "iso2": "DE",
+        "lat": "50.8719",
+        "lng": "6.6961",
+        "co2": 1000,
+        "timestamp": 1644509736,
+        "id": 130
+    },
+    {
+        "city": "Rüsselsheim",
+        "country": "Germany",
+        "iso2": "DE",
+        "lat": "49.9950",
+        "lng": "8.4119",
+        "co2": 1000,
+        "timestamp": 1644509736,
+        "id": 131
+    },
+    {
+        "city": "Weimar",
+        "country": "Germany",
+        "iso2": "DE",
+        "lat": "50.9833",
+        "lng": "11.3167",
+        "co2": 1000,
+        "timestamp": 1644509736,
+        "id": 132
+    },
+    {
+        "city": "Plauen",
+        "country": "Germany",
+        "iso2": "DE",
+        "lat": "50.4950",
+        "lng": "12.1383",
+        "co2": 1000,
+        "timestamp": 1644509736,
+        "id": 133
+    },
+    {
+        "city": "Sindelfingen",
+        "country": "Germany",
+        "iso2": "DE",
+        "lat": "48.7133",
+        "lng": "9.0028",
+        "co2": 1000,
+        "timestamp": 1644509736,
+        "id": 134
+    },
+    {
+        "city": "Neuwied",
+        "country": "Germany",
+        "iso2": "DE",
+        "lat": "50.4286",
+        "lng": "7.4614",
+        "co2": 1000,
+        "timestamp": 1644509736,
+        "id": 135
+    },
+    {
+        "city": "Dormagen",
+        "country": "Germany",
+        "iso2": "DE",
+        "lat": "51.0964",
+        "lng": "6.8400",
+        "co2": 1000,
+        "timestamp": 1644509736,
+        "id": 136
+    },
+    {
+        "city": "Neubrandenburg",
+        "country": "Germany",
+        "iso2": "DE",
+        "lat": "53.5569",
+        "lng": "13.2608",
+        "co2": 1000,
+        "timestamp": 1644509736,
+        "id": 137
+    },
+    {
+        "city": "Grevenbroich",
+        "country": "Germany",
+        "iso2": "DE",
+        "lat": "51.0883",
+        "lng": "6.5875",
+        "co2": 1000,
+        "timestamp": 1644509736,
+        "id": 138
     }
 ]
