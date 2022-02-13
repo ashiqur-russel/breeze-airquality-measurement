@@ -21,7 +21,7 @@ body::-webkit-scrollbar { display: none; }
   min-width: 100px;
   max-width: 300px;
   font-size: smaller;
-  background-color: #5a5858b9;
+  background-color: #f8f6f6b9;
   position: fixed;
   left: 10px;
   bottom: 10px;
