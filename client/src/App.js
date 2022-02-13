@@ -1,13 +1,15 @@
-import './App.css';
-import Api from "./Api/Api"
+import React from "react";
+const LazyLoadedComponent = React.lazy(() => import("./component/Map"));
 
-function App() {
+function MyApp() {
   return (
-    <>
-      <Api />
+    <div className="App">
+      <React.Suspense fallback={<div>Waiting...</div>}>
+        <LazyLoadedComponent /> ̰
+      </React.Suspense>
 
-    </>
-  )
+    </div>
+  );
 }
 
-export default App;
+export default MyApp;
