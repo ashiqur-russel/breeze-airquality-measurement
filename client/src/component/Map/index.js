@@ -4,6 +4,14 @@ import Marker from "../Marker";
 import Geocoder from "../GeoCode";
 import InfoLabel from "../InfoLabel";
 import { getUpdatedata } from '../../api/Map'
+
+import mapboxgl from 'mapbox-gl';
+
+// The following is required to stop "npm build" from transpiling mapbox code.
+// notice the exclamation point in the import.
+// @ts-ignore
+// eslint-disable-next-line import/no-webpack-loader-syntax, import/no-unresolved
+mapboxgl.workerClass = require('worker-loader!mapbox-gl/dist/mapbox-gl-csp-worker').default;
 //API_KEY for MAPBOX
 const MAPBOX_TOKEN = process.env.REACT_APP_MAP_BOX_ACCESS_TOKEN;
 

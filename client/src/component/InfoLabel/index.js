@@ -17,7 +17,7 @@ export default () => {
             />
           </div>
           <div className="col-10">
-            CO2 Level &lt;&#61; 1000
+            CO<sub>2</sub>Level &lt;&#61; 1000
           </div>
           <div className="col-2">
             <img
@@ -26,7 +26,7 @@ export default () => {
             />
           </div>
           <div className="col-10">
-            CO2 Level &gt; 1000 and Level &lt;&#61; 2000
+            CO<sub>2</sub>&gt; 1000 and Level &lt;&#61; 2000
           </div>
           <div className="col-2">
             <img
@@ -35,7 +35,7 @@ export default () => {
             />
           </div>
           <div className="col-10">
-            CO2 Level &gt; 2000
+            CO<sub>2</sub> Level &gt; 2000
           </div>
         </div>
 

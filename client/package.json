@@ -21,8 +21,10 @@
     "recharts": "^2.1.8",
     "redux": "^4.1.2",
     "viewport-mercator-project": "^7.0.4",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "worker-loader": "^3.0.8"
   },
+  "start": "node --max_old_space_size=8048 ./node_modules/@angular/cli/bin/ng serve",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
