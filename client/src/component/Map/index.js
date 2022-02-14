@@ -9,9 +9,9 @@ import mapboxgl from 'mapbox-gl';
 
 // The following is required to stop "npm build" from transpiling mapbox code.
 // notice the exclamation point in the import.
-// @ts-ignore
 // eslint-disable-next-line import/no-webpack-loader-syntax, import/no-unresolved
 mapboxgl.workerClass = require('worker-loader!mapbox-gl/dist/mapbox-gl-csp-worker').default;
+
 //API_KEY for MAPBOX
 const MAPBOX_TOKEN = process.env.REACT_APP_MAP_BOX_ACCESS_TOKEN;
 
@@ -47,7 +47,8 @@ class Map extends Component {
   }
 
   // Reference Variable
-  mapRef = React.createRef();
+  // Reference variable attached with React Element
+  // Create map,inervalRef and geocoderContainerRef for handle and access DOM Event  mapRef = React.createRef();
   intervalRef = React.createRef();
 
   geocoderContainerRef = React.createRef();
